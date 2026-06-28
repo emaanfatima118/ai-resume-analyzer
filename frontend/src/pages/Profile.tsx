@@ -47,7 +47,7 @@ export default function Profile() {
           </div>
           <div>
             <h2 className="text-xl font-semibold text-white">{user?.full_name}</h2>
-            <p className="text-sm text-gray-400">ResuMind member</p>
+            <p className="text-sm text-gray-400">Rivo member</p>
           </div>
         </div>
 

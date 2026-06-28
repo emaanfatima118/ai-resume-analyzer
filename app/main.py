@@ -19,8 +19,8 @@ from routes.history import router as history_router
 # ======================================================
 
 app = FastAPI(
-    title="AI Resume Analyzer API",
-    description="Backend API for AI Resume Analyzer",
+    title="Rivo API",
+    description="Backend API for Rivo career intelligence",
     version="1.0.0"
 )
 
@@ -59,7 +59,7 @@ app.include_router(history_router)
 @app.get("/")
 async def root():
     return {
-        "message": "AI Resume Analyzer API is running"
+        "message": "Rivo API is running"
     }
 
 # ======================================================

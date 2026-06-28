@@ -34,7 +34,7 @@ export default function Login() {
         <div className="mb-8 text-center">
           <Logo className="justify-center" />
           <h1 className="mt-6 text-2xl font-semibold text-white">Welcome back</h1>
-          <p className="mt-2 text-sm text-gray-400">Sign in to continue to ResuMind</p>
+          <p className="mt-2 text-sm text-gray-400">Sign in to continue to Rivo</p>
         </div>
 
         <form onSubmit={handleSubmit} className="glass space-y-5 rounded-2xl p-8">

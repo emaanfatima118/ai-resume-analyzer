@@ -65,7 +65,7 @@ export default function Landing() {
           </h1>
 
           <p className="animate-fade-up animate-delay-2 mx-auto mt-6 max-w-2xl text-lg text-gray-400">
-            ResuMind analyzes your resume against any job description, scores your
+            Rivo reads your resume against any role, scores your fit,
             fit, identifies skill gaps, and prepares you with interview-ready insights.
           </p>
 
@@ -123,7 +123,7 @@ export default function Landing() {
               Everything you need to <em className="gradient-text not-italic">win</em> the interview
             </h2>
             <p className="mx-auto mt-4 max-w-xl text-gray-400">
-              From skill gap analysis to interview prep — ResuMind gives you a competitive edge.
+              From skill gaps to interview prep — Rivo gives you a clear edge.
             </p>
           </div>
 
@@ -185,7 +185,7 @@ export default function Landing() {
               Ready to optimize your career?
             </h2>
             <p className="mt-3 text-gray-400">
-              Join ResuMind and start matching your resume to your dream roles today.
+              Join Rivo and start matching your profile to the roles you want.
             </p>
             <Link
               to="/signup"
@@ -199,7 +199,7 @@ export default function Landing() {
       </section>
 
       <footer className="border-t border-white/6 py-8 text-center text-sm text-gray-500">
-        © {new Date().getFullYear()} ResuMind. AI Resume Analyzer.
+        © {new Date().getFullYear()} Rivo
       </footer>
     </LandingLayout>
   );

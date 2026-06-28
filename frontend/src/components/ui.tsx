@@ -130,7 +130,7 @@ export function Logo({ className = "" }: { className?: string }) {
         </svg>
       </div>
       <span className="text-lg font-semibold tracking-tight">
-        Resu<span className="gradient-text">Mind</span>
+        <span className="gradient-text">Rivo</span>
       </span>
     </Link>
   );
